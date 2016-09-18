@@ -1,0 +1,64 @@
+body{
+    margin-top: auto;
+    font-family: Georgia,Times, "Times New Roman", serif;
+    width: 100vw;
+    height: auto;
+}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      .pg-content{
+        margin: auto;
+        width: 960px;
+      }
+      .pg-content-imgs{
+        width: 100%;
+        height: 150px;
+        background-color: #eeeeee;
+      }
+      .pg-content-desc{
+        padding-top: 27px;
+      }
+      .pg-content-div{
+        float: left;
+        margin: 10px;
+        width:300px;
+      }
+    }
+
+    /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+     .pg-content-imgs{
+       width: ;
+       height: ;
+
+     }
+   }
+
+   /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      .pg-content-imgs{
+        width: ;
+        height: ;
+      }
+    }
+
+    .pg-content-heads{
+      color: #3fa8aa;
+      text-align: center;
+      font-size: 18px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 25px;
+    }
+
+    .pg-content-text{
+      color: #222;
+      text-align: center;
+      font-size: 12px;
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 35px;
+    }
