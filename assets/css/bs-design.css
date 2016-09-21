@@ -1,6 +1,10 @@
 body{
   font-family: Georgia,Times, "Times New Roman", serif;
 }
+
+.page-container{
+  padding-bottom: 5px;
+}
 .pg-content-title{
   color: #49ade2;
   font-weight: bold;
@@ -17,10 +21,10 @@ body{
 
 .pg-footer{
   padding-top: 15px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  padding-bottom: 15px;
   background-color: #515151 ;
   color: #eee;
 }
