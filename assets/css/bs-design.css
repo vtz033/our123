@@ -1,5 +1,6 @@
 body{
   font-family: Georgia,Times, "Times New Roman", serif;
+  height: 100%;
 }
 
 .page-container{
@@ -18,7 +19,32 @@ body{
   font-size: 12px;
 }
 
+/*== Slider ==*/
+.slider-container{
+  position: relative;
+}
+.slider-div{
+  padding: 30px 0 30px 0;
+  position: relative;
+}
+div.slider-control{
+  padding: 0 10px 0 10px;
+  position: absolute;
+  top: 47%;
+  width: 100%;
+}
+div.slider-control > a{
+  color: #fff;
+  text-decoration: none;
+}
 
+div.slider-control > a:hover, div.slider-control > a:active{
+  color: #ffffff;
+}
+
+/*== Slider ==*/
+
+/*== Footer ==*/
 .pg-footer{
   padding-top: 15px;
   position: fixed;
@@ -61,6 +87,7 @@ a.footer-bars{
 a.footer-bars:hover, a.footer-bars:active{
   color:#71bfe6;;
 }
+/*== END Footer ==*/
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
