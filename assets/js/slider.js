@@ -19,7 +19,7 @@ var autoSlide = setInterval(function() {
 }, 3000);
 
 function nextSlide() {
-  //clearInterval(autoSlide);
+  clearInterval(autoSlide);
   currentIndex += 1;
   if (currentIndex > itemAmt - 1) {
     currentIndex = 0;
@@ -28,7 +28,7 @@ function nextSlide() {
 }
 
 function prevSlide() {
-  //clearInterval(autoSlide);
+  clearInterval(autoSlide);
   currentIndex -= 1;
   if (currentIndex < 0) {
     currentIndex = itemAmt - 1;

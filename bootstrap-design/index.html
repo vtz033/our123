@@ -19,30 +19,34 @@
     <div class="page-container">
 
       <!-- Navigation -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="col-md-8 col-md-offset-2">
+      <nav class="navbar navbar-default">
+        <div class="col-md-8 col-md-offset-2 nav-right-padding">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float:left;">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
+          <div class="collapse-div-icons">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">News</a></li>
-              <li style="padding-top: 10px">
-                <p>
-                  <a class="footer-bars" href="#"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
-                  <a class="footer-bars" href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-                  <a class="footer-bars" href="#"><i class="fa fa-youtube-square fa-lg" aria-hidden="true"></i></a>
-                </p>
+              <li class="collapse_icon nav-link1" style="padding-top: 10px">
+                <p class="nav-link1">
+                  <a href="#">Contact Us</a><span class="footer-bars">|</span> <a href="#">News</a>
+                  <p>
               </li>
               <li style="padding-top: 10px">
+                <p>
+                  <a class="nav-fa" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                  <a class="nav-fa" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                  <a class="nav-fa" href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                  <a class="nav-fa collapse_inverse" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </p>
+              </li>
+              <li class="collapse_icon" style="padding-top: 10px">
                 <form class="form-inline" style="padding-left: 5px;">
-                  <input class="form-control" type="text" placeholder="Search">
+                  <input class="form-control search-input" type="text" placeholder="Search">
                 </form>
               </li>
             </ul>
@@ -50,17 +54,19 @@
         </div>
       </nav>
 
-      <div class="col-md-6 col-md-offset-3">
+      <nav>
+      <div class="col-md-8 col-md-offset-2 collapse navbar-collapse nav-right-padding" id="navbar" style="width:67%;">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
+          <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="brand-img"/></a>
         </div>
         <ul class="nav nav-pills navbar-right">
-          <li role="presentation"><a href="#">Company</a></li>
-          <li role="presentation"><a href="#">Capabilities</a></li>
-          <li role="presentation"><a href="#">Products</a></li>
-          <li role="presentation"><a href="#">Quality</a></li>
+          <li role="presentation"><a href="#" class="nav-link2">Company</a></li>
+          <li role="presentation"><a href="#" class="nav-link2">Capabilities</a></li>
+          <li role="presentation"><a href="#" class="nav-link2">Products</a></li>
+          <li role="presentation"><a href="#" class="nav-link2">Quality</a></li>
         </ul>
       </div>
+      </nav>
       <!-- END Navigation -->
 
       <!-- Page Slider -->
@@ -118,7 +124,6 @@
 
       </div>
       <!-- END Page Content -->
-
     </div>
 
     <!-- Footer -->

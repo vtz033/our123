@@ -3,9 +3,39 @@ body{
   height: 100%;
 }
 
+.brand-img{
+    height: 90px;
+    margin-top: -40px;
+}
+.nav-right-padding{
+  padding-right: 5%;
+}
+
+.nav-link1 > a{
+  font-size: 10px;
+  color: #354472;
+  text-decoration: none;
+  padding-right:1em;
+}
+.nav-link1 > a:hover, .nav-link1 > a:active{
+  color: #49ade2;
+  font-weight: bold;
+}
+
+.nav-link2{
+  font-weight: bold;
+  color: #49ade2;
+}
+
+.search-input{
+  height: 20px;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 0px;
+}
+
 .page-container{
-  padding-bottom: 60px;
-  padding-top: 40px;
+  margin-bottom: 700px;
 }
 .pg-content-title{
   color: #49ade2;
@@ -14,6 +44,7 @@ body{
 .pg-content-imgs{
   /*width: 100%;*/
   padding-bottom: 30px;
+  padding-left: 2px;
 }
 
 .pg-content-text{
@@ -25,13 +56,13 @@ body{
   position: relative;
 }
 .slider-div{
-  padding: 30px 0 30px 0;
+  padding: 0px 0 30px 0;
   position: relative;
 }
 div.slider-control{
   padding: 0 10px 0 10px;
   position: absolute;
-  top: 47%;
+  top: 40%;
   width: 100%;
 }
 div.slider-control > a{
@@ -62,7 +93,7 @@ div.slider-control > a:hover, div.slider-control > a:active{
 
 a.footer-links{
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   text-decoration: none;
 }
@@ -117,5 +148,34 @@ a.footer-bars:hover, a.footer-bars:active{
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active{
       color: #71bfe6;
   }
+  .collapse_inverse{
+    display:none;
+  }
+  .nav-fa{
+    color: #49ade2;
+    text-decoration: none;
+    font-size: 18px;
+  }
 
+}
+
+@media only screen and (max-width : 992px) {
+  .nav-fa{
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  ul.nav-pills > li{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .collapse-div-icons{
+    margin-top: -55px;
+  }
+}
+@media only screen and (max-width : 768px) {
+  li.collapse_icon{
+    display:none;
+  }
 }
