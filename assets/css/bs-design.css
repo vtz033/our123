@@ -4,7 +4,8 @@ body{
 }
 
 .page-container{
-  padding-bottom: 5px;
+  padding-bottom: 60px;
+  padding-top: 40px;
 }
 .pg-content-title{
   color: #49ade2;
@@ -85,7 +86,7 @@ a.footer-bars{
   padding: 2px
 }
 a.footer-bars:hover, a.footer-bars:active{
-  color:#71bfe6;;
+  color:#71bfe6;
 }
 /*== END Footer ==*/
 
@@ -104,4 +105,17 @@ a.footer-bars:hover, a.footer-bars:active{
   div.footer-links{
     text-align: center;
   }
+
+  .navbar-default{
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .navbar-default .navbar-nav > li > a {
+      color: #49ade2;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active{
+      color: #71bfe6;
+  }
+
 }
